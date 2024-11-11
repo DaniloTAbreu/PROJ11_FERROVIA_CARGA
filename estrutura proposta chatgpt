@@ -1,0 +1,25 @@
+estrutura proposta chatgpt
+ferroviario_analise/
+│
+├── data/
+│   ├── raw/               # Dados brutos baixados do site
+│   ├── processed/         # Dados processados para análise
+│   └── external/          # Dados externos que podem ser usados como referência
+│
+├── notebooks/             # Notebooks Jupyter para análise exploratória e experimentos
+│
+├── scripts/               # Scripts Python para processamento e análise
+│   ├── preprocessing.py   # Script para pré-processamento de dados
+│   ├── analysis.py        # Script para análise de dados
+│   └── visualization.py   # Script para visualizações
+│
+├── reports/               # Relatórios e resultados finais
+│   ├── figures/           # Gráficos e figuras geradas
+│   └── final_report.pdf   # Relatório final em PDF
+│
+├── tests/                 # Testes para garantir a qualidade do código
+│   └── test_analysis.py   # Testes para os scripts de análise
+│
+├── environment.yml        # Arquivo para configuração do ambiente Conda (ou requirements.txt para pip)
+├── README.md              # Documentação do projeto
+└── .gitignore             # Arquivo para ignorar arquivos não versionados

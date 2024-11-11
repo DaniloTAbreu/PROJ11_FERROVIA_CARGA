@@ -1,0 +1,54 @@
+Problema: Análise da Eficiência do Transporte Ferroviário e Identificação de Oportunidades de Melhoria
+Objetivo:
+Analisar a eficiência do transporte ferroviário, identificar padrões de transporte, e sugerir oportunidades de melhoria nas operações ferroviárias.
+
+Perguntas e Tarefas Específicas:
+Análise de Volume e Distribuição de Cargas:
+
+Pergunta: Quais são os volumes de carga transportada por mês e por ano? Como esses volumes variam entre as diferentes ferrovias, mercadorias e regiões?
+Tarefas:
+Criar gráficos de séries temporais para visualizar as tendências mensais e anuais de tonelagem (coluna tu).
+Realizar uma análise de distribuição das mercadorias transportadas e suas variações por ferrovia (ferrovia) e região (estação de origem e destino, uf_origem e uf_destino).
+Eficiência do Transporte:
+
+Pergunta: Qual é a eficiência média do transporte ferroviário em termos de tonelada-quilômetro útil (coluna tku) para diferentes ferrovias e mercadorias?
+Tarefas:
+Calcular a eficiência média (tku por tonelada) por ferrovia e por tipo de mercadoria.
+Identificar quais ferrovias e mercadorias têm a melhor e a pior eficiência.
+Análise de Rota e Distância:
+
+Pergunta: Quais são as rotas mais e menos frequentes entre estações? Existe uma correlação entre a distância das rotas e o volume de carga transportada?
+Tarefas:
+Criar uma matriz de fluxo entre as estações de origem e destino para identificar as rotas mais e menos frequentes.
+Utilizar informações geográficas (se disponíveis) para calcular distâncias e analisar a correlação entre distância e volume de carga (tu).
+Tendências Temporais e Sazonalidade:
+
+Pergunta: Existem padrões sazonais ou tendências temporais significativas no volume de carga transportada?
+Tarefas:
+Analisar tendências temporais e padrões sazonais utilizando técnicas de decomposição de séries temporais.
+Visualizar os dados com gráficos sazonais para identificar padrões anuais ou mensais.
+Visualização e Relatórios:
+
+Pergunta: Como apresentar os resultados de maneira clara e informativa para stakeholders?
+Tarefas:
+Criar dashboards interativos que incluam gráficos de tendências, mapas de rotas, e análises de eficiência.
+Desenvolver relatórios que destaquem insights principais, como oportunidades de otimização e melhorias na eficiência.
+Métodos e Ferramentas:
+Análise Exploratória de Dados (EDA): Usar bibliotecas como Pandas, NumPy, e Matplotlib/Seaborn para exploração e visualização dos dados.
+Modelagem Estatística: Aplicar técnicas estatísticas para entender padrões e correlações.
+Machine Learning (opcional): Usar algoritmos de aprendizado de máquina para prever volumes de carga futuros ou identificar padrões complexos.
+Visualização de Dados: Utilizar ferramentas como Tableau, Power BI, ou bibliotecas Python (Plotly, Bokeh) para criar visualizações interativas.
+Exemplo de Resultados a Serem Apresentados:
+Gráficos de Tendências: Volume de carga transportada ao longo do tempo, por ferrovia e mercadoria.
+Matriz de Fluxo: Frequência das rotas entre estações de origem e destino.
+Eficiência: Gráficos comparativos da eficiência entre diferentes ferrovias e mercadorias.
+Mapas: Mapas de calor mostrando a intensidade do transporte entre diferentes regiões.
+
+
+
+
+Dataset baixado do site:
+https://dados.antt.gov.br/dataset/sistema-de-acompanhamento-do-desempenho-operacional-das-concessionarias-siade
+em 08/08/2024
+
+

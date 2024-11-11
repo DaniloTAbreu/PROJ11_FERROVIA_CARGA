@@ -1,0 +1,8 @@
+andamento do projeto
+
+preprocessing - OK
+data - raw, processed, final - ok
+analysis_visualization - ok
+dash simples - ok
+streamlit simples - ok
+falta machine learning 
